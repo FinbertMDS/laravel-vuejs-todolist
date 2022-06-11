@@ -29,16 +29,16 @@ Empty List | With Items
 
 ### INSTALLATION GUIDE USE DOCKER
 1. Clone the project
-1. ``cd`` to the project and run ``composer install`` on the terminal to install php dependencies
-1. copy the `.env-example` file to `.env` file 
-1. Run below commands
-```
-alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
-sail up -d
-sail php artisan migrate
-sail php artisan key:generate
-sail npm install
-sail npm run dev
-sail php artisan passport:install
-```
-1. Congratulations if you made it!
+2. ``cd`` to the project and run ``composer install`` on the terminal to install php dependencies
+3. copy the `.env-example` file to `.env` file 
+4. Run below commands
+  ```
+  alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+  sail up -d
+  sail php artisan migrate
+  sail php artisan key:generate
+  sail npm install
+  sail npm run dev
+  sail php artisan passport:install
+  ```
+5. Congratulations if you made it! Access http://localhost 
